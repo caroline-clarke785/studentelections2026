@@ -1,0 +1,156 @@
+
+
+body { background-image: url(photos/campus.png);
+  		background-repeat: no-repeat;
+  		background-size: cover; 
+  		font-family: "Georgia", serif;
+  		font-weight: 400;
+  	}
+
+
+#main { background-color: rgba(255, 255, 255, 0.9);
+		width: 1280px;
+		margin: 40px auto;
+		padding: 20px;
+		border-radius: 10px;
+	}
+
+section {
+	margin-top: 35px;
+	font-size: 15px;
+}
+
+section p, section h3 {
+    margin-left: 20px;
+}
+
+section input[type="radio"] {
+    margin-left: 20px;
+}
+
+header p {
+	text-align: center;
+	margin-bottom: 0;
+	font-size: 16px;
+}
+
+header {
+	margin-bottom: 10px;
+}
+
+h1 { color: #072b49;
+	 font-size: 40px;
+	 font-weight:700;
+	 text-align: center;
+	 margin-bottom: 5px;
+ }
+
+
+h2 {
+    background-color: #F2EFEA;
+    color: #072b49;
+    font-size: 18px;
+    font-weight: 550;
+    letter-spacing: 3px;
+    padding: 15px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+p, a, label {
+    font-weight: 400;
+    color: #072b49;
+}
+
+a {
+    color: #587492;
+    text-decoration: underline;
+    font-size: 15px;
+}
+
+
+p {
+	line-height: 1.6;
+	margin-bottom: 20px;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+h3 {
+	color: #072b49;
+	font-size: 15px;
+	font-weight:400;
+	margin-top: 25px;
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+
+.tagline {
+    background-color: transparent;
+    font-size: 16px;
+    color: #587492;
+    font-weight: normal;
+    letter-spacing: 4px;
+    padding: 0;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+
+
+section:first-child {
+    margin-top: 15px;
+}
+
+.candidate {
+    margin-top: 0;
+    margin-bottom: 3px;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+#review {
+	text-align: center;
+	border-top: 1px solid #587492;
+	padding-top:20px;
+	width: 98%;
+	margin: 35px auto 0;
+}
+
+input[type="submit"] {
+    background-color: #344f65;
+    color: white;
+    font-family: Georgia, serif;
+    font-size: 18px;
+    padding: 15px 45px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+}
+
+input[type="submit"]:hover {
+    background-color: #587492;
+}
+
+#review p {
+	margin-left:0;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 10px;
+}
+
+footer p {
+    font-size: 15px;
+    letter-spacing: 4px;
+    color: #587492;
+    margin-bottom: 5px;
+}
+
+
+

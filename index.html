@@ -3,12 +3,23 @@
 
 	<head>
 		<title> 2026 Student Election Ballot </title>
+		<link rel="stylesheet" href="style.css">
+
+<!--
+AI Use Disclosure:
+Tool: ChatGPT (premium version)
+Purpose: Helped me figure out spacing/padding/margin issues. Also helped me generate CSS code for styling the button.
+Human Role: I applied the explanation to my project situation, inserted the recommended CSS code, and modified the code to work on my page. -->
+
 	</head>
 
 	<body>
+<div id="main">
 
 	<header>
 		<h1> 2026 Student Election Ballot </h1>
+
+		<h2 class="tagline"> YOUR CAMPUS. YOUR VOICE. </h2>
 
 		<p> Cast your vote in the 2026 Student Body Election. Select your preferred candidate for each position and submit your ballot when complete.
 		</p>
@@ -18,14 +29,14 @@
 		<form>
 
 	<section>
-		<h2> Student Body President </h2>
+		<h2> STUDENT BODY PRESIDENT </h2>
 
 		<p> Below are the candidates running for Student Body President. Click on a candidate’s name to learn more about them. Once you’ve reviewed the candidates, cast your vote below.   
 		</p>
 
-		<p>1.<a href="mayathompson.html"> Maya Thompson</a>
+		<p class="candidate">1. <a href="mayathompson.html">Maya Thompson</a></p>
 
-		<br>2.<a href="ethanbrooks.html"> Ethan Brooks</a> </p>
+		<p class="candidate">2. <a href="ethanbrooks.html">Ethan Brooks</a></p>
 
 		<h3> Select your choice for Student Body President </h3>
 		<input type="radio" name="president" value="Maya Thompson"> Maya Thompson <br>
@@ -34,26 +45,27 @@
 
 
 	<section>
-		<h2> Student Body Vice President </h2>
+		<h2> STUDENT BODY VICE PRESIDENT </h2>
 
 		<p> Below are the candidates running for Student Body Vice President. Click on a candidate’s name to learn more about them. Once you’ve reviewed the candidates, cast your vote below.   
 		</p>
 
-		<p>1.<a href="oliviabennett.html"> Olivia Bennett</a>
+		<p class="candidate">1. <a href="oliviabennett.html">Olivia Bennett</a></p>
 
-		<br>2.<a href="jacksonreed.html"> Jackson Reed</a> </p>
+		<p class="candidate">2. <a href="jacksonreed.html">Jackson Reed</a></p>
 
 		<h3> Select your choice for Student Body Vice President </h3>
-		<input type="radio" name="vicepresident" value="Olivia Bennet"> Olivia Bennett <br>
+		<input type="radio" name="vicepresident" value="Olivia Bennett"> Olivia Bennett <br>
 		<input type="radio" name="vicepresident" value="Jackson Reed"> Jackson Reed
 	</section>
 
-	<section>
+	<div id="review">
 
-		<h2> Review & Submit </h2>
+		<input type="submit" value="Submit Ballot">
+
 		<p> Please review your selections carefully before submitting your ballot. Once submitted, your selections cannot be changed, and you will not be able to vote again.</p>
-		 <input type="submit" value="Submit Ballot">
-	</section>
+		 
+	</div>
 
 </form>
 
@@ -63,6 +75,7 @@
 	<p> &copy; 2026 Blue Mountain University </p>
 </footer>
 
+</div>
 	</body>
 
 
